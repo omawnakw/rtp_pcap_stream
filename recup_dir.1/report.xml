@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.0</version>
+    <build_environment>
+      <compiler>GCC 4.2</compiler>
+      <compilation_date>2015-12-17T08:23:56</compilation_date>
+      <library name='libext2fs' version='none'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='none'/>
+      <library name='libntfs' version='none'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Darwin</os_sysname>
+      <os_release>16.6.0</os_release>
+      <os_version>Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64</os_version>
+      <host>MacBook-Pro-Daniil.local</host>
+      <arch>x86_64</arch>
+      <uid>501</uid>
+      <start_time>2017-06-19T22:32:43+0300</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/Users/omawnakw/Downloads/save_slr_1_1497447722_7fc3600b3120-0-13c4-65014-55-4452dabc-55_1_35_VIDE_out.mp4</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>1271529</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='1271529'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+</dfxml>
